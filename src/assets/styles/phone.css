@@ -1,0 +1,25 @@
+/* 適配移動端 */
+.home{
+    width :100%;
+    height :auto;
+    overflow: scroll;
+}
+.menu-container,.menus{
+    width :100%;
+    height :auto;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content:flex-end;
+}
+.menus .menu-items{
+    display: flex;
+    flex-wrap:wrap;
+    width:7.45rem;
+    height:0.53rem;
+    padding:0.54rem 0.43rem 0 0;
+}
+.menu-container li{
+    color:#666666;
+    font-size:0.2rem;
+    margin-right:0.13rem;
+}

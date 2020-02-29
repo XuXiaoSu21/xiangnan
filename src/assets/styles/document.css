@@ -1,0 +1,214 @@
+/* 適配pc端 */
+.color{
+    color:#000;
+}
+.home{
+    width :100%;
+    height: auto;
+    overflow: scroll;
+}
+.menu-container,.menus{
+    width :100%;
+    height :auto;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content:flex-end;
+}
+.menus .menu-items{        
+    display: flex;
+    flex-wrap:wrap;
+    width:13.8rem;
+    height:5.3rem;
+    padding:2.43rem 2.68rem 2.43rem 0; 
+}
+.menu-container li{
+    color:#666666;
+    font-size:.8rem;
+    margin:1rem 0.812rem 0 0;
+}
+.firstPic{
+    display: flex;
+    justify-content: flex-end;
+    -webkit-justify-content:flex-end;
+}
+.firstPic .text{
+    width: 58.3%;
+    height:auto;
+    display: flex;
+    justify-content:center;
+    -webkit-justify-content:center;
+    position: relative;
+}
+.firstPic .text>p{
+    margin-top:5.18rem;
+    color:#333333;
+    font-size: 1.46rem;
+    width:18.77rem; 
+    height:10.8125rem;
+}
+.firstPic .pic{
+    max-width: 42%;
+    max-height: 63.8rem;
+}
+.firstPic .pic img{
+    width: 100%;
+    height: 100%;
+}
+.secPic{
+    position: absolute;
+    max-width: 55%;
+    max-height: 53.6rem;
+    bottom: -19%;
+    right: 9%;
+    z-index: 1;
+}
+.secPic img,.nextPic img,.threePic img,.fourPic img,.fivePic img ,.six-fa img,.seven-left img,.seven-right img,.eight-fa img,.night-fa img,.ten-fa img,.last-fa img{
+    width: 100%;
+    height:100%;
+}
+.secPic p{
+    position: absolute;
+    bottom: 4%;
+    right: 30%;
+    font-size: .78rem;
+    color: #333333;
+}
+.nextPic-fa,.three-fa,.four-fa,.five-fa,.ten-fa,.last-fa,.six-fa,.seven-fa,.eight-fa,.night-fa{
+    width:100%;
+    position: relative;
+}
+.nextPic{   
+    max-width: 36%;
+    position: absolute;
+    top:-10%;
+}
+.three-fa{
+    margin-top: 40%;
+}
+.threePic{
+    max-width: 46%;
+    position: absolute;
+    top:-10%;
+    right: 0;
+}
+.threePic > p{
+    color:#333333;
+    position: absolute;
+    right: 10%;
+    font-size: .78rem;
+}
+.fourPic{
+    max-width: 34%;
+    position: absolute;
+    left: 10%;
+}
+.four-fa{
+    margin-top: 90%;                                                                                                                                                                                                                                                                                                                                                                                                                                
+}
+.fivePic{
+    max-width: 84%;
+    position: absolute;
+    margin-top: 50%;
+    right: 0;
+}
+.sixPic{
+    max-width: 50%;
+    position: absolute;
+    left: 0;
+    margin-top: 112%;
+}
+.seven-left{
+    max-width: 26%;
+    position: absolute;
+    left: 30%;
+    margin-top: 182%;
+}
+.seven-right{
+    max-width: 40%;
+    position: absolute;
+    right: 0;
+    margin-top: 162%;
+}
+.eightPic{
+    max-width: 56%;
+    position: absolute;
+    left: 0;
+    margin-top: 217%;
+}
+.nightPic{
+    max-width: 59%;
+    position: absolute;
+    left: 0;
+    margin-top: 310%;
+}
+.night-fa p {
+    position: absolute;
+    right: 42%;
+    font-size: 1.08rem;
+    color: #333333;
+    margin-top: 351%;
+    z-index: 1;
+}
+.tenPic{
+    max-width: 52%;
+    position: absolute;
+    right: 0;
+    margin-top: 357%;
+}
+.lastPic{
+    max-width: 37%;
+    position: absolute;
+    left: 10%;
+    margin-top: 360%;
+}
+.home img{
+    opacity: .4;
+    transition:opacity 1s;
+}
+.home img:hover{
+    opacity: 1;
+    transition:opacity 1s;
+}
+.product img{
+    transition:all .5s;
+}
+.product img:hover{
+    -webkit-transform: rotate(-90deg);
+}
+.team .firstPic{
+    justify-content: start;
+    -webkit-justify-content: start;
+    
+}
+.team .firstPic .text>p{
+    margin-top: 2.18rem;    
+}
+.team .firstPic{
+    justify-content: start;
+    -webkit-justify-content: start;
+}
+.swiper-container{
+    width:90%;  
+    height:400px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+    margin-left :0 !important; 
+}
+.swiper-button-next{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 50%;
+    right:-4%;
+    color:#999 !important;
+}
+.team .color{
+    color:#000;
+}
+.team .bottom p{
+    color:#333;
+    padding: 10px 0 180px 10%;
+
+}
